@@ -1,5 +1,7 @@
-# detectar-ind-cios-de-arquivos-maliciosos
-Script que monitora pastas sensíveis ✔ Identifica arquivos recém-criados ou modificados ✔ Procura comportamentos típicos de malware, como:  extensões suspeitas  nomes usados por worms/trojans  arquivos executáveis em locais errados  persistência em Startup 
+# detectar-indicios-de-arquivos-maliciosos
+Script que monitora pastas sensíveis
+✔ Identifica arquivos recém-criados ou modificados
+✔ Procura comportamentos típicos de malware, como: extensões suspeitas nomes usados por worms/trojans  arquivos executáveis em locais errados persistência em Startup 
 ✔ Roda em segundo plano 
 🧠 SCRIPT – Monitoramento em Segundo Plano
 
@@ -7,7 +9,7 @@ Script que monitora pastas sensíveis ✔ Identifica arquivos recém-criados ou 
 monitor-malware.ps1
 # ===============================
 # Monitoramento de Arquivos Suspeitos
-# Autor: Segurança Local
+# Autor: Diego Chaves
 # ===============================
 
 $WatchPaths = @(
